@@ -1,0 +1,26 @@
+/*  Notice carefully,  I have'nt applied a 'background-color' property to the box class below -   */
+
+.box{
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+/* 
+   Then how are these boxes taking its background-color ? 
+   Check index.html lines 53,54,55 - We are using Bootstrap classes: 
+   bg-primary, bg-success, bg-danger to get background colors.  
+*/
+
+
+p{
+    font-size: 1em;
+    margin: 1em;
+}
+
+h1{
+    font-size: 1em;
+    margin: 1em;
+}
+
+
